@@ -1,4 +1,7 @@
 import CMS from 'netlify-cms-app'
+import { es } from 'netlify-cms-locales';
+
+CMS.registerLocale('es', es);
 import uploadcare from 'netlify-cms-media-library-uploadcare'
 import cloudinary from 'netlify-cms-media-library-cloudinary'
 
